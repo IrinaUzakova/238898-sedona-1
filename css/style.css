@@ -118,7 +118,7 @@ a{
 .promo{
 	position: relative;
 	background: #e4f1f9 url("../img/main_photo.jpg") no-repeat 50%;	
-	height: 510px;
+	height: 509px;
     background-size: cover;
 	background-position: 0 28.5%;
 }
@@ -152,12 +152,11 @@ a{
 }
 
 .promo_text h1{
-	width: 440px;
-	margin: 60px auto 0;
+	margin: 58px 300px 0;
 }
 
 .promo_text p{
-	margin: 27px auto 52px;
+	margin: 29px auto 52px;
 	font-size: 14px;
 	line-height: 24px;
 }
@@ -355,10 +354,18 @@ a{
 .form_search input{
 	position: relative;
 	float: left;
-	padding: 14px 160px 14px 15px;
+	padding: 10px 160px 10px 15px;
+	text-transform: uppercase;
 	background-color: #f2f2f2;
 	border: 1px solid #f2f2f2;
 	outline: none;
+}
+
+.form_search input [type="text"]{
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 14px;
+	line-height: 26px;
 }
 
 .form_search input:hover{
@@ -375,8 +382,8 @@ a{
 	position: absolute;
 	width: 21px;
     height: 22px;	
-	top: 9px;
-	right: 9px;
+	top: 7px;
+	right: 7px;
     background: url(../img/spritesheet.png) no-repeat ;
     background-position: -196px -10px;
 }
@@ -389,7 +396,7 @@ a{
 
 .form_search_input_number input{
 	width: 112px;
-	padding: 14px 0;
+	padding: 10px 0;
 	text-align: center; 
 	text-transform: uppercase;
 }
@@ -412,8 +419,8 @@ a{
 
  .icon_plus{	
 	position: absolute;
-	top: 17px;
-	right: 15px;
+	top: 14px;
+	right: 13px;
     width: 11px;
     height: 11px;
     background: url(../img/spritesheet_volume.png) no-repeat ;
@@ -424,7 +431,7 @@ a{
 	display: block;
 	background: #81b3d2;
 	color: #fff;
-	padding: 14px 194px;
+	padding: 16px 192px;
 	text-align: center;
 	font-weight: bold;
 	font-size: 21px;
