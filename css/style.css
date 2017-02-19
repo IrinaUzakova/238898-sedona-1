@@ -586,7 +586,7 @@ a{
 
 
 .filter{
-	padding: 25px 6% 30px;
+	padding: 27px 6% 30px;
 	background: #40759f url("../img/filter_background.jpg") no-repeat;
 	color: #ffffff;
 }
@@ -597,7 +597,7 @@ a{
 	float: left;
 	min-width: 210px;
 	max-width: 240px;
-	margin-right: 40px;
+	margin-right: 44px;
 	text-transform: uppercase;
 	box-sizing: border-box;
 }
@@ -611,34 +611,44 @@ a{
 	display: block;
 	/*padding-top: 25px;
 	padding-left: 40px;*/
-	margin-bottom: 25px;
+	margin: 25px 40px 0;
 }
 
 .filter_group label:before{
 	position: absolute;
 	top: 0;
-	left: 0;
+	left: -40px;
 	content: "";
 	width: 27px;
 	height: 27px;
 	background: url(../img/checkbox.png) no-repeat left;
-	background-position: 0 24px;
+	background-position: 0 0;
 }
 
-.filter_group input:checked + .filter_group label:before{
+
+.filter_group .checked:before{
+	position: absolute;
+	top: 0;
+	left: -40px;
+	content: "";
+	width: 27px;
+	height: 27px;
 	background: url(../img/checked.png) no-repeat left;
-	background-position: 0 24px;
+	background-position: 0 0;
 }
 
 
 .filter_title{
 	font-size: 16px;
 }
-
+/*
 .filter_group input{
-	
+	background: url(../img/checked.png) no-repeat left;
+	width: 22px;
+    height: 22px;
+    background-position: -411px -10px;
 }
-
+*/
 
 .filter_range {
 	float: right;
@@ -649,8 +659,8 @@ a{
 }
 
 .filter_range_title {
-	margin-bottom: 9px;
-	font-weight: 600;
+	margin: 0 0 10px -10px;
+	font-weight: bold;
 	font-size: 16px;
 	line-height: 21px;
 }
@@ -689,7 +699,7 @@ a{
 
 .price_controls .min_price,
 .price_controls .max_price {
-	width: 90px;
+	width: 92px;
 	padding-left: 65px;
 }
 
@@ -751,8 +761,8 @@ a{
 
 .btn_transparent {
 	display: block;
-	margin: 0 auto;
-	padding: 6px 35px;
+	margin: 0 85px;
+	padding: 6px 32px;
 
 	font-size: 14px;
 	line-height: 20px;
