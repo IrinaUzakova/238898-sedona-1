@@ -181,7 +181,7 @@ a{
 }
 
 .features_text h2{
-	padding: 37px 30% 4px;
+	padding: 53px 30% 25px;
 	margin: 0;
 }
 
@@ -189,7 +189,7 @@ a{
 	/*padding: 0 50px;
 	margin: 27px;*/
 	margin: 0;
-	padding: 2% 7% 11.8% ;
+	padding: 20px 49px;
 	text-align: center;
 }
 
@@ -247,9 +247,9 @@ a{
     display: block;
 	margin: 0 auto 30px;	
     width: 75px;
-    height: 76px;
+    height: 71px;
     background: url(../img/spritesheet.png) no-repeat;
-    background-position: -1284px -10px;
+    background-position: -1280px -13px;
 }
 
 .features_gray_bgr{
@@ -263,15 +263,15 @@ a{
 	color: #000000;
 	text-align: center;
 	text-transform: uppercase;
-	padding-bottom: 45px;
+	padding-bottom: 40px;
 }
 
 .features_gray_bgr_text h2{
-	padding: 30px 30% 15px;
+	padding: 30px 30% 7px;
 }
 
 .features_gray_bgr_text p{
-	padding: 0 69px;
+	padding: 7px 69px;
 }
 
 /*//////////////////////////////////////*/
@@ -349,7 +349,7 @@ a{
 
 .form_search_lable{
 	width: 100px;
-	margin: 5px 13px 0 0;
+	margin: 5px 11px 0 2px;
 }
 
 .form_search input{
@@ -381,13 +381,13 @@ a{
     background-position: -196px -10px;
 }
 
-.form_search_input{
+.form_search_input_number{
 	display: inline-block;
 	vertical-align: middle;
 	position: relative;
 }
 
-.form_search_input input{
+.form_search_input_number input{
 	width: 112px;
 	padding: 14px 0;
 	text-align: center; 
