@@ -410,7 +410,7 @@ a{
 	position: absolute;
     width: 12px;
     height: 3px;
-	top: 22px;
+	top: 18px;
 	left: 15px;
     background: url(../img/spritesheet_volume.png) no-repeat ;
     background-position: -10px -10px;
@@ -432,6 +432,7 @@ a{
 	background: #81b3d2;
 	color: #fff;
 	padding: 16px 192px;
+	margin-top: 53px;
 	text-align: center;
 	font-weight: bold;
 	font-size: 21px;
@@ -777,7 +778,7 @@ a{
 
 .hotel_sorting{
 	font-size: 0;
-	padding: 16px 6%; 
+	padding: 20px 6% 15px; 
 	text-transform: uppercase;
 	border-bottom: 1px solid #e5e5e5;
 	box-sizing: border-box;
@@ -811,9 +812,12 @@ a{
 	line-height: 18px;
 }
 
-.hotel_sorting li:nth-child(4),
+.hotel_sorting li:nth-child(4){
+	padding-left: 473px;
+	padding-right: 13px;
+}
 .hotel_sorting li:nth-child(5){
-	
+	padding-right: 0;
 }
 
 .sort_by{
@@ -931,7 +935,7 @@ a{
 }
 
 .rating{
-	padding: 3px 8px;
+	padding: 2px 13px;
 	background-color: #f2f2f2;
 }
 
@@ -944,17 +948,17 @@ a{
 
 .rating_amara{	
 	background: url(../img/amara_rating.png) no-repeat;
-    background-position: 21px 30px;
-}
-
-.rating_villas{	
-	background: url(../img/villas_rating.png) no-repeat;
-    background-position: 33px 30px;
+    background-position: 20px 28px;
 }
 
 .rating_desert{	
 	background: url(../img/desert_rating.png) no-repeat;
-    background-position: 58px 30px;
+    background-position: 67px 28px;
+}
+
+.rating_villas{	
+	background: url(../img/villas_rating.png) no-repeat;
+    background-position: 44px 28px;
 }
 
 .hotel_name{
