@@ -388,6 +388,14 @@ a{
     background-position: -196px -10px;
 }
 
+.calendar:hover{
+    background-position: -278px -10px;
+}
+
+.calendar:active{
+    background-position: -237px -10px;
+}
+
 .form_search_input_number{
 	display: inline-block;
 	vertical-align: middle;
@@ -417,6 +425,14 @@ a{
 	z-index: 1;
 }
 
+.icon_minus:hover{	
+    background-position: -74px -10px;
+}
+
+.icon_minus:active{	
+    background-position: -42px -10px;
+}
+
  .icon_plus{	
 	position: absolute;
 	top: 14px;
@@ -425,6 +441,14 @@ a{
     height: 11px;
     background: url(../img/spritesheet_volume.png) no-repeat ;
     background-position: -106px -10px;
+}
+
+ .icon_plus:hover{	
+    background-position: -168px -10px;
+}
+
+ .icon_plus:active{	
+    background-position: -137px -10px;
 }
 
 .form_search_btn{
@@ -440,6 +464,14 @@ a{
 	text-transform: uppercase;
 	box-sizing: border-box;
 	border: none;
+}
+
+.form_search_btn:hover{
+	background: #669ec0;
+}
+
+.form_search_btn:active{
+	color: rgba(255,255,255,0.3);
 }
 
 .index_map{	
@@ -625,8 +657,40 @@ a{
 	background-position: 0 0;
 }
 
-
 .filter_group .checked:before{
+	position: absolute;
+	top: 0;
+	left: -40px;
+	content: "";
+	width: 27px;
+	height: 27px;
+	background: url(../img/checked.png) no-repeat left;
+	background-position: 0 0;
+}
+
+.filter_group .checked_disabled:before{
+	position: absolute;
+	top: 0;
+	left: -40px;
+	content: "";
+	width: 27px;
+	height: 27px;
+	background: url(../img/checked_disabled.png) no-repeat left;
+	background-position: 0 0;
+}
+
+.filter_group .disabled:before{
+	position: absolute;
+	top: 0;
+	left: -40px;
+	content: "";
+	width: 27px;
+	height: 27px;
+	background: url(../img/checkbox_disabled.png) no-repeat left;
+	background-position: 0 0;
+}
+
+.filter_group .checked:before:hover{
 	position: absolute;
 	top: 0;
 	left: -40px;
@@ -941,7 +1005,7 @@ a{
 }
 
 .book_btn:active{
-	color: (255,255,255,0.3);
+	color: rgba(255,255,255,0.3);
 }
 
 .rating{

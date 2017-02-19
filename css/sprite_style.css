@@ -154,7 +154,7 @@
     background-position: -1490px -10px;
 }
 
-/*//////////////////////////////////*/
+/*///////////////SPRITE2///////////////////*/
 .sprite {
     background-image: url(spritesheet_volume.png);
     background-repeat: no-repeat;
@@ -173,7 +173,7 @@
     background-position: -42px -10px;
 }
 
-.sprite-minus_nover {
+.sprite-minus_hover {
     width: 12px;
     height: 3px;
     background-position: -74px -10px;
