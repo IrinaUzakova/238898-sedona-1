@@ -154,45 +154,39 @@
     background-position: -1490px -10px;
 }
 
-/*///////////////SPRITE2///////////////////*/
-.sprite {
-    background-image: url(spritesheet_volume.png);
-    background-repeat: no-repeat;
-    display: block;
-}
 
 .sprite-minus {
     width: 12px;
     height: 3px;
-    background-position: -10px -10px;
+    background-position: -10px -106px;
 }
 
 .sprite-minus_active {
     width: 12px;
     height: 3px;
-    background-position: -42px -10px;
+    background-position: -42px -106px;
 }
 
 .sprite-minus_hover {
     width: 12px;
     height: 3px;
-    background-position: -74px -10px;
+    background-position: -74px -106px;
 }
 
 .sprite-plus {
     width: 11px;
     height: 11px;
-    background-position: -106px -10px;
+    background-position: -106px -106px;
 }
 
 .sprite-plus_active {
     width: 11px;
     height: 11px;
-    background-position: -137px -10px;
+    background-position: -137px -106px;
 }
 
 .sprite-plus_hover {
     width: 11px;
     height: 11px;
-    background-position: -168px -10px;
+    background-position: -168px -106px;
 }
