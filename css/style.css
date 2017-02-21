@@ -54,6 +54,7 @@ a{
 
 .main_navigation li{
 	display: inline-block;
+	vertical-align: middle;
 	width: 20%;
 	padding: 15px 0;
 	white-space: nowrap;
@@ -139,7 +140,7 @@ a{
     display: block;	
 	position: absolute;
 	bottom: 0;
-    background: url(../img/main_photo_mask.png) no-repeat center;  
+    background: url("../img/main_photo_mask.png") no-repeat center;  
 	width: 100%;
     height: 57px;
 }
@@ -237,7 +238,7 @@ a{
 	width: 75px;
     height: 72px;
 	vertical-align: top;
-    background: url(../img/spritesheet.png) no-repeat;    
+    background: url("../img/spritesheet.png") no-repeat;    
     background-position: -681px -10px;
 }
 
@@ -248,7 +249,7 @@ a{
     width: 74px;
     height: 70px;
 	vertical-align: middle;
-    background: url(../img/spritesheet.png) no-repeat;
+    background: url("../img/spritesheet.png") no-repeat;
     background-position: -587px -10px;
 }
 
@@ -258,7 +259,7 @@ a{
 	margin: 0 auto 30px;	
     width: 75px;
     height: 71px;
-    background: url(../img/spritesheet.png) no-repeat;
+    background: url("../img/spritesheet.png") no-repeat;
     background-position: -1280px -13px;
 }
 
@@ -363,6 +364,8 @@ a{
     box-shadow: 0 0 15px rgba(0,0,0,.2);
     text-transform: uppercase;
     z-index: 4;
+    -webkit-transform: translate(-285px);
+    -moz-transform: translate(-285px);
     transform: translate(-285px);
     box-sizing: border-box;
 }
@@ -387,7 +390,7 @@ a{
 .form_search_column_right{
 	position: relative;
 	float: left;
-	width: 345px;
+	width: 347px;
 }
 
 .form_search_lable{
@@ -398,7 +401,8 @@ a{
 .form_search input{
 	position: relative;
 	float: left;
-	padding: 10px 160px 10px 15px;
+	padding: 10px 0 10px 15px;
+	width: 330px;
 	text-transform: uppercase;
 	background-color: #f2f2f2;
 	border: 1px solid #f2f2f2;
@@ -426,9 +430,9 @@ a{
 	position: absolute;
 	width: 21px;
     height: 22px;	
-	top: 7px;
-	right: 7px;
-    background: url(../img/spritesheet.png) no-repeat ;
+	top: 8px;
+	right: 8px;
+    background: url("../img/spritesheet.png") no-repeat ;
     background-position: -196px -10px;
 }
 
@@ -455,7 +459,7 @@ a{
 
 .form_search_column_right label{
 	margin-left: 50px;
-	margin-right: 22px;
+	margin-right: 23px;
 }
 
 .icon_minus{	
@@ -464,7 +468,7 @@ a{
     height: 3px;
 	top: 18px;
 	left: 15px;
-    background: url(../img/spritesheet_volume.png) no-repeat ;
+    background: url("../img/spritesheet_volume.png") no-repeat ;
     background-position: -10px -10px;
 	z-index: 1;
 }
@@ -483,7 +487,7 @@ a{
 	right: 13px;
     width: 11px;
     height: 11px;
-    background: url(../img/spritesheet_volume.png) no-repeat ;
+    background: url("../img/spritesheet_volume.png") no-repeat ;
     background-position: -106px -10px;
 }
 
@@ -499,7 +503,8 @@ a{
 	display: block;
 	background: #81b3d2;
 	color: #fff;
-	padding: 16px 192px;
+	padding: 16px 0;
+	width: 458px;
 	margin-top: 53px;
 	text-align: center;
 	font-weight: bold;
@@ -589,8 +594,10 @@ a{
 	left: 50%;
 	width: 46px;
 	height: 46px;
+	-webkit-transform: translate(-50%,-50%);
+	-moz-transform: translate(-50%,-50%);
 	transform: translate(-50%,-50%);
-	background:   url(../img/spritesheet.png) no-repeat center;
+	background:   url("../img/spritesheet.png") no-repeat center;
 }
 
 .btn:hover{
@@ -645,7 +652,7 @@ a{
 	text-decoration: none;
     width: 113px;
     height: 39px;	
-	background:  url(../img/spritesheet.png) no-repeat center;
+	background:  url("../img/spritesheet.png") no-repeat center;
     background-position: -776px -10px;
 }
 
@@ -699,7 +706,7 @@ a{
 	content: "";
 	width: 27px;
 	height: 27px;
-	background: url(../img/checkbox.png) no-repeat left;
+	background: url("../img/checkbox.png") no-repeat left;
 	background-position: 0 0;
 }
 
@@ -710,7 +717,7 @@ a{
 	content: "";
 	width: 27px;
 	height: 27px;
-	background: url(../img/checked.png) no-repeat left;
+	background: url("../img/checked.png") no-repeat left;
 	background-position: 0 0;
 }
 
@@ -721,7 +728,7 @@ a{
 	content: "";
 	width: 27px;
 	height: 27px;
-	background: url(../img/checked_disabled.png) no-repeat left;
+	background: url("../img/checked_disabled.png") no-repeat left;
 	background-position: 0 0;
 }
 
@@ -732,7 +739,7 @@ a{
 	content: "";
 	width: 27px;
 	height: 27px;
-	background: url(../img/checkbox_disabled.png) no-repeat left;
+	background: url("../img/checkbox_disabled.png") no-repeat left;
 	background-position: 0 0;
 }
 
@@ -743,7 +750,7 @@ a{
 	content: "";
 	width: 27px;
 	height: 27px;
-	background: url(../img/checked.png) no-repeat left;
+	background: url("../img/checked.png") no-repeat left;
 	background-position: 0 0;
 }
 
@@ -753,7 +760,7 @@ a{
 }
 /*
 .filter_group input{
-	background: url(../img/checked.png) no-repeat left;
+	background: url("../img/checked.png") no-repeat left;
 	width: 22px;
     height: 22px;
     background-position: -411px -10px;
@@ -794,16 +801,16 @@ a{
 	height: 22px;
 
 	background: #ffffff;
+	-webkit-transform: translate(-50%, -50%);
+	-moz-transform: translate(-50%, -50%);
 	transform: translate(-50%, -50%);
 }
 
 .price_controls label {
 	display: inline-block;
-
 	font-size: 14px;
-	line-height: 38px;
+	line-height: 21px;
 	vertical-align: top;
-
 	cursor: pointer;
 }
 
@@ -898,7 +905,7 @@ a{
 
 .hotel_sorting{
 	font-size: 0;
-	padding: 16px 6% 15px; 
+	padding: 16px 6% 16px; 
 	text-transform: uppercase;
 	border-bottom: 1px solid #e5e5e5;
 	box-sizing: border-box;
@@ -927,7 +934,7 @@ a{
 .hotel_sorting li{
 	display: inline-block;
 	vertical-align: middle;
-	padding-right: 33px;
+	padding-right: 32px;
 	font-size: 12px;
 	line-height: 18px;
 }
@@ -964,7 +971,7 @@ a{
 	
     width: 10px;
     height: 10px;
-    background: url(../img/spritesheet.png) no-repeat;
+    background: url("../img/spritesheet.png") no-repeat;
 }
 
 .arrow_up{	
@@ -1006,7 +1013,7 @@ a{
 
 .hotel_preview{
 	float: left;
-	margin: 30px 0 24px;
+	margin: 30px 0 25px;
 }
 
 .hotel_inform{
@@ -1067,17 +1074,17 @@ a{
 }
 
 .rating_amara{	
-	background: url(../img/amara_rating.png) no-repeat;
+	background: url("../img/amara_rating.png") no-repeat;
     background-position: 20px 28px;
 }
 
 .rating_desert{	
-	background: url(../img/desert_rating.png) no-repeat;
+	background: url("../img/desert_rating.png") no-repeat;
     background-position: 67px 28px;
 }
 
 .rating_villas{	
-	background: url(../img/villas_rating.png) no-repeat;
+	background: url("../img/villas_rating.png") no-repeat;
     background-position: 44px 28px;
 }
 

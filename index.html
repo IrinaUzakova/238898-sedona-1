@@ -3,7 +3,7 @@
 	<head>
 		<meta charset="utf-8">
 		<title>Sedona</title>
-		<link href="https://fonts.googleapis.com/css?family=PT+Sans" rel="stylesheet">
+		<link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=cyrillic" rel="stylesheet">
 		<link rel="stylesheet" href="css/normalize.css"/>
 		<link rel="stylesheet" href="css/style.css"/>
 	</head>
@@ -11,23 +11,23 @@
 		<div class="container">
 			<header class="main_header">
 				<div class="main_logo">
-					<img src="img/header_logo.png" width="138" height="70" alt="Sedona">
+					<a href="index.html"><img src="img/header_logo.png" width="138" height="70" alt="Sedona"></a>
 				</div>
 				<nav class="main_navigation">
-				  <ul>
-					<li>
-					  <a href="#">Информация</a>
-					</li>
-					<li>
-					  <a href="#">Фото и видео</a>
-					</li>
-					<li>
-					  <a href="#">Карта штата</a>
-					</li>
-					<li>
-					  <a href="hotels.html">Гостиницы</a>
-					</li>
-				  </ul>
+					<ul>
+						<li>
+							<a href="#">Информация</a>
+						</li>
+						<li>
+							<a href="#">Фото и видео</a>
+						</li>
+						<li>
+							<a href="#">Карта штата</a>
+						</li>
+						<li>
+							<a href="hotels.html">Гостиницы</a>
+						</li>
+					</ul>
 				</nav>
 			  
 			</header>
@@ -141,7 +141,8 @@
 						Найти
 					</button>
 				</form>
-				<div class="map"><script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=qT9XTo6_v4DscgoC2smgYJFW565-TXdl&amp;width=100%25&amp;height=590&amp;lang=ru_RU&amp;sourceType=constructor&amp;scroll=true"></script>
+				<div class="map">
+					<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=qT9XTo6_v4DscgoC2smgYJFW565-TXdl&amp;width=100%25&amp;height=590&amp;lang=ru_RU&amp;sourceType=constructor&amp;scroll=true"></script>
 				</div>
 				<div class="footer_info">
 					<div class="main_footer_sedona">
@@ -157,9 +158,7 @@
 						<a class="btn_html_academy " href="https://htmlacademy.ru">HTML Academy</a>
 					</div>
 				</div>
-			</footer>
-	
-		
+			</footer>		
 		</div>
 
 		
@@ -170,7 +169,7 @@
 
 			var popup = document.querySelector(".form_search");
 			
-			window.addEventListener("click", function(event) {
+			link.addEventListener("click", function(event) {
 				event.preventDefault();
 				popup.classList.toggle("form_search_show");
 			});
